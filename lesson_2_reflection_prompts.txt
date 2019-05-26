@@ -1,0 +1,16 @@
+What happens when you initialize a repository? What do you need to do it?
+
+To initialize a repository, you use the command git init. This creates a
+hidden .git file in the directory that you chose that contains the metadata
+stored for all of the files.
+
+
+--------------------------------------------------------------------------------
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+The staging area is an intermediary stage that allows you to organize all of the
+files that you want to commit before having to commit it.
+
+
+--------------------------------------------------------------------------------
