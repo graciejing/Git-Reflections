@@ -14,3 +14,55 @@ files that you want to commit before having to commit it.
 
 
 --------------------------------------------------------------------------------
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+You can check what files are in the staging area before you commit it. This way
+you can ensure that all of the files that you are about to commit relate to
+the same single change so that the commit has one logical change.
+
+
+--------------------------------------------------------------------------------
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches are helpful when you want to try different things with your code
+that start with the same base. For example, if you want to try different ways
+to implement/edit/add a certain feature. Branches are good for keeping these
+separate both visually within your git log/branches as well as functionally
+with code as they will contain differences.
+
+
+--------------------------------------------------------------------------------
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help to show when specific branches differ from the master branch.
+This is useful to see what branches contain what commits from the master branch.
+
+
+--------------------------------------------------------------------------------
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+By merging two branches together you allow one (usually the master) branch to be
+able to access commits from both branches. This makes it easier to access and
+see commits because you don't have to switch back and forth between branches
+plus the commits are all in one log. We represent it in the diagram the way we
+do because it shows that they are now connected, but you can still see when they
+were branched from the original master. This way they are in one diagram but
+still maintain their individuality.
+
+
+--------------------------------------------------------------------------------
+ What are the pros and cons of Git's automatic merging vs. always doing merges
+ manually?
+
+Automatic merging is nice in that you just tell Git to merge branches and it
+will merge the two. However, this is a little tricky when there are merge
+conflicts, so you need to manually go in and fix the files before they can
+be merged together. In this sense, Git is unable to think on its own to fix
+these solutions, but it is able to carry out tasks given to it when they're
+error free.
+
+
+--------------------------------------------------------------------------------
