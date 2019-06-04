@@ -10,7 +10,10 @@ stored for all of the files.
 repository? What value do you think it offers?
 
 The staging area is an intermediary stage that allows you to organize all of the
-files that you want to commit before having to commit it.
+files that you want to commit before having to commit it. The working directory
+is the directory that you are currently in. It's a physical location on your
+computer whereas the staging area is more nebulous. The repository is a location
+where metadata for the files in the working directory is stored.
 
 
 --------------------------------------------------------------------------------
