@@ -56,3 +56,19 @@ easier and a much smoother process.
 
 
 --------------------------------------------------------------------------------
+6. When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+If you're working on a big project with other collaborators, you almost always
+want to make changes in a separate branch rather than directly in master. This
+is so the master branch can remain clean and free of errors. If you're working
+alone on a smaller project, you could edit directly in master if you wanted.
+This would mean that master could run into issues that prevent it from running.
+They key for either method is to commit often. The benefit to the separate
+branch is that you don't introduce bugs to master and it's easier to use when
+collaborating with multiple people but it does take a lot more commands to
+perform. The benefit to master is that it's simpler to use but not as useful
+in as many settings.
+
+
+--------------------------------------------------------------------------------
