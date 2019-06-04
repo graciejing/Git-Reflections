@@ -17,3 +17,16 @@ repo until you've fixed the error.
 
 
 --------------------------------------------------------------------------------
+3. Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+Branches are contained within a single repository. They occur when one commit
+leads to two seperate commits that have both edited that original commit. Clones
+are identical repositories that exist individually. Repositories can be cloned
+from GitHub to a local repository or within just a local repository but not from
+a local repository to GitHub or from one GitHub repository to another GitHub
+repository. Forks are used when you want to clone a GitHub repository to another
+GitHub repository.
+
+
+--------------------------------------------------------------------------------
