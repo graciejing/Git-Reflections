@@ -1,1 +1,9 @@
+1. When would you want to use a remote repository rather than keeping all your 
+work local?
 
+It's nice to have a remote repository because then you can access these files
+from anywhere. If you keep all your work local then you need to access that
+specific laptop or computer at all times to edit the work.
+
+
+--------------------------------------------------------------------------------
