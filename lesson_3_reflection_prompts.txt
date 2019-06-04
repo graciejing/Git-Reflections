@@ -39,3 +39,20 @@ you want. This allows you to see if and where the repos have diverged.
 
 
 --------------------------------------------------------------------------------
+5. How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+Without Git and GitHub, collaborating would either have to happen in physical
+proximity to all collaborating members or done by constantly sending entire
+directories/files to each other (like via emails). It might be easier because
+with emailing directories/files to each other, there aren't a lot of complicated
+commands involved, but there are a lot of cons to this method. Firstly, if there
+are multiple collaborators, it would be very difficult to keep track of
+everyone's individual versions. Additionally, it's hard to version-control with
+this method because you don't know which version is newer/older. Lastly, it
+would be difficult to resolve conflicts if multiple people edit the same file
+or line in one edit. To sum it up, Git/GitHub makes collaboration significantly
+easier and a much smoother process.
+
+
+--------------------------------------------------------------------------------
