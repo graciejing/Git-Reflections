@@ -1,4 +1,4 @@
-What happens when you initialize a repository? What do you need to do it?
+1. What happens when you initialize a repository? What do you need to do it?
 
 To initialize a repository, you use the command git init. This creates a
 hidden .git file in the directory that you chose that contains the metadata
@@ -6,7 +6,7 @@ stored for all of the files.
 
 
 --------------------------------------------------------------------------------
-How is the staging area different from the working directory and the
+2. How is the staging area different from the working directory and the
 repository? What value do you think it offers?
 
 The staging area is an intermediary stage that allows you to organize all of the
@@ -14,7 +14,7 @@ files that you want to commit before having to commit it.
 
 
 --------------------------------------------------------------------------------
-How can you use the staging area to make sure you have one commit per logical
+3. How can you use the staging area to make sure you have one commit per logical
 change?
 
 You can check what files are in the staging area before you commit it. This way
@@ -23,8 +23,8 @@ the same single change so that the commit has one logical change.
 
 
 --------------------------------------------------------------------------------
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+4. What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
 
 Branches are helpful when you want to try different things with your code
 that start with the same base. For example, if you want to try different ways
@@ -34,15 +34,15 @@ with code as they will contain differences.
 
 
 --------------------------------------------------------------------------------
-How do the diagrams help you visualize the branch structure?
+5. How do the diagrams help you visualize the branch structure?
 
 The diagrams help to show when specific branches differ from the master branch.
 This is useful to see what branches contain what commits from the master branch.
 
 
 --------------------------------------------------------------------------------
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+6. What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
 
 By merging two branches together you allow one (usually the master) branch to be
 able to access commits from both branches. This makes it easier to access and
@@ -54,8 +54,8 @@ still maintain their individuality.
 
 
 --------------------------------------------------------------------------------
- What are the pros and cons of Git's automatic merging vs. always doing merges
- manually?
+7. What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
 
 Automatic merging is nice in that you just tell Git to merge branches and it
 will merge the two. However, this is a little tricky when there are merge
